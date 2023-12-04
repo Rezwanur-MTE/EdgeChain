@@ -78,3 +78,5 @@ console.log("Mining Block 2...");
 edgeCoin.addBlock(new Block(2, "14/12/2023",{ amount$ : 7}));
 
 console.log(JSON.stringify(edgeCoin,null, 4));
+
+module.exports= Blockchain;
